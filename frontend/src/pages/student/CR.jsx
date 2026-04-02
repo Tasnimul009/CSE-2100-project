@@ -73,12 +73,12 @@ const CR = () => {
   const batchKeys = Object.keys(grouped).sort()
 
   return (
-    <div className="cr-page">
+    <div className="cr-page font-poppins">
       {/* ── Hero banner ── */}
       <div className="cr-hero">
         <div className="cr-hero-inner">
           <p className="cr-hero-label">RUET · Department of CSE</p>
-          <h1 className="cr-hero-title">Class Representatives</h1>
+          <h1 className="cr-hero-title font-dmSans">Class Representatives</h1>
           <p className="cr-hero-sub">
             Meet the student leaders of each section across all active batches.
           </p>
@@ -111,7 +111,7 @@ const CR = () => {
           <div key={batch} className="cr-batch-block">
             {/* batch heading */}
             <div className="cr-batch-header">
-              <span className="cr-batch-tag">Batch {batch}</span>
+              <span className="cr-batch-tag font-dmSans">Batch {batch}</span>
               <span className="cr-batch-series">Series {batch}00</span>
             </div>
 

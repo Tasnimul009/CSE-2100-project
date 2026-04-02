@@ -26,7 +26,6 @@
 }
 
 .cr-hero-title {
-  font-family: 'Georgia', serif;
   font-size: clamp(2.05rem, 4.2vw, 2.95rem);
   font-weight: 700;
   color: #e8f4ff;
@@ -114,7 +113,6 @@
 }
 
 .cr-batch-tag {
-  font-family: 'Georgia', serif;
   font-size: 1.3rem;
   font-weight: 700;
   color: #1a3353;
@@ -241,7 +239,6 @@
   font-size: 0.82rem;
   color: #94a3b8;
   margin: 0;
-  font-family: 'Courier New', monospace;
 }
 
 .cr-badge {
