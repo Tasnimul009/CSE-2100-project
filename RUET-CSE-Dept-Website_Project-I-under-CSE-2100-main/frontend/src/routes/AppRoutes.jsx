@@ -12,6 +12,7 @@ import Achievements     from '../pages/quickMenu/Achievements'
 import CampusLife       from '../pages/quickMenu/CampusLife'
 import MouCollaboration from '../pages/quickMenu/MouCollaboration'
 import StudentProfile   from '../pages/student/StudentProfile'
+import StudentLogin     from '../pages/student/StudentLogin'
 
 // import Contact          from '../pages/Contact'
 
@@ -79,6 +80,8 @@ const AppRoutes = () => {
         <Route path="/quickMenu/mou-collaboration" element={<MouCollaboration />} />
         <Route path="/student/profiles"          element={<StudentProfile />} />
         <Route path="/student"                   element={<StudentProfile />} />
+        <Route path="/login"                     element={<StudentLogin />} />
+        <Route path="/student/login"             element={<StudentLogin />} />
 
         {/* <Route path="/contact" element={<Contact />} /> */}
         {/* <Route path="/about/cse"               element={<AboutCSE />} /> */}
@@ -112,7 +115,6 @@ const AppRoutes = () => {
         {/* <Route path="/student/advisor"         element={<Advisor />} /> */}
         {/* <Route path="/student/cr"              element={<CR />} /> */}
         {/* <Route path="/student/guidelines"      element={<Guidelines />} /> */}
-        {/* <Route path="/student/login"           element={<StudentLogin />} /> */}
         {/* <Route path="/student/results"         element={<Results />} /> */}
 
       </Route>

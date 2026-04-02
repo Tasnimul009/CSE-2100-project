@@ -89,7 +89,7 @@ export const navMenu = [
       { title: "Advisor", link: "/student/advisor" },
       { title: "Class Representative (CR)", link: "/student/cr" },
       { title: "Guidelines", link: "/student/guidelines" },
-      { title: "Student Login", link: "/student/login" },
+      { title: "Student Login", link: "/login" },
       { title: "Results", link: "/student/results" }
     ]
   },

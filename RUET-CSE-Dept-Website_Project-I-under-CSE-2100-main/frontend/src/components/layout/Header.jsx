@@ -150,7 +150,7 @@ const Header = () => {
                   </svg>
                 </Link>|
                 <Link to="*" className="hover:text-blue duration-300">Alumni</Link>|
-                <Link to="https://www.cse.ruet.ac.bd/login" target='_blank' className="hover:text-blue duration-300">Login</Link>
+                <Link to="/login" className="hover:text-blue duration-300">Login</Link>
                 <div className="relative flex items-center border border-blue rounded-full">
                   <input
                     type="text"
@@ -334,7 +334,7 @@ const Header = () => {
             <a href="https://www.ruet.ac.bd/" target="_blank" className="hover:text-blue transition-colors duration-200 whitespace-nowrap">RUET Main</a>
             <a href="/" className="hover:text-blue transition-colors duration-200">Web Mail</a>
             <a href="/" className="hover:text-blue transition-colors duration-200">Alumni</a>
-            <a href="/" className="hover:text-blue transition-colors duration-200">Login</a>
+            <Link to="/login" onClick={toggleMenu} className="hover:text-blue transition-colors duration-200">Login</Link>
           </div>
         </nav>
       </div>
