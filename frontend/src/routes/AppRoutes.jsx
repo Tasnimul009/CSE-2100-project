@@ -19,6 +19,11 @@ import StudentResults   from '../pages/student/StudentResults'
 import CR               from '../pages/student/CR'
 import RequireAuth      from './RequireAuth'
 
+import Dean             from '../pages/faculty/Dean'
+import HeadOfDept       from '../pages/faculty/HeadOfDept'
+import FacultyMembers   from '../pages/faculty/FacultyMembers'
+import OfficerStaff     from '../pages/faculty/OfficerStaff'
+
 // ── Scroll to top on every route change ──────────────────────────────────────
 const ScrollToTop = () => {
   const { pathname } = useLocation()
@@ -110,10 +115,11 @@ const AppRoutes = () => {
         {/* <Route path="/academic/class-routine"  element={<ClassRoutine />} /> */}
         {/* <Route path="/academic/exam-routine"   element={<ExamRoutine />} /> */}
 
-        {/* <Route path="/faculty/dean"            element={<Dean />} /> */}
-        {/* <Route path="/faculty/head"            element={<HeadOfDept />} /> */}
-        {/* <Route path="/faculty/members"         element={<FacultyMembers />} /> */}
-        {/* <Route path="/faculty/staff"           element={<OfficerStaff />} /> */}
+        {/* ── Faculty Routes ── */}
+        <Route path="/faculty/dean" element={<Dean />} />
+        <Route path="/faculty/head" element={<HeadOfDept />} />
+        <Route path="/faculty/members" element={<FacultyMembers />} />
+        <Route path="/faculty/staff" element={<OfficerStaff />} />
 
         {/* <Route path="/research/areas"          element={<ResearchAreas />} /> */}
         {/* <Route path="/research/publications"   element={<Publications />} /> */}

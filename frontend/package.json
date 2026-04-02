@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "faculty:sync": "node ./scripts/extractFacultyFromHtml.mjs",
     "lint": "eslint .",
     "preview": "vite preview"
   },

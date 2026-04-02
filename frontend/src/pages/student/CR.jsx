@@ -38,6 +38,7 @@ const CR = () => {
   const [activeBatch, setActiveBatch] = useState('all')
   const [students, setStudents] = useState([])
   const [loadError, setLoadError] = useState('')
+  const [query, setQuery] = useState('')
 
   useEffect(() => {
     let mounted = true
@@ -56,11 +57,19 @@ const CR = () => {
     return () => { mounted = false }
   }, [])
 
-  const filteredStudents = useMemo(() => (
-    activeBatch === 'all'
+  const filteredStudents = useMemo(() => {
+    const batchFiltered = activeBatch === 'all'
       ? students
       : students.filter(s => s.batch === activeBatch)
-  ), [activeBatch, students])
+
+    const q = query.trim().toLowerCase()
+    if (!q) return batchFiltered
+
+    return batchFiltered.filter(s => {
+      const haystack = `${s?.name || ''} ${s?.studentId || ''} ${s?.email || ''}`.toLowerCase()
+      return haystack.includes(q)
+    })
+  }, [activeBatch, students, query])
 
   // group by batch → section
   const grouped = {}
@@ -73,14 +82,24 @@ const CR = () => {
   const batchKeys = Object.keys(grouped).sort()
 
   return (
-    <div className="cr-page font-poppins">
+    <div className="cr-page font-inter">
       {/* ── Hero banner ── */}
       <div className="cr-hero">
         <div className="cr-hero-inner">
           <p className="cr-hero-label">RUET · Department of CSE</p>
-          <h1 className="cr-hero-title font-dmSans">Class Representatives</h1>
+          <h1 className="cr-hero-title">Class Representatives</h1>
           <p className="cr-hero-sub">
             Meet the student leaders of each section across all active batches.
+          </p>
+        </div>
+      </div>
+
+      {/* ── Demo message ── */}
+      <div className="cr-message-wrap">
+        <div className="cr-message">
+          <p className="cr-message-title">Message</p>
+          <p className="cr-message-body">
+            This is a demo message for the CR page. For class updates, announcements, and support, feel free to reach out to your section CRs.
           </p>
         </div>
       </div>
@@ -100,6 +119,17 @@ const CR = () => {
             >Batch {b}</button>
           ))}
         </div>
+
+        <div className="cr-search-row">
+          <input
+            type="text"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Search CR by name / ID / email"
+            className="cr-search"
+            aria-label="Search class representatives"
+          />
+        </div>
       </div>
 
       {/* ── Content ── */}
@@ -111,7 +141,7 @@ const CR = () => {
           <div key={batch} className="cr-batch-block">
             {/* batch heading */}
             <div className="cr-batch-header">
-              <span className="cr-batch-tag font-dmSans">Batch {batch}</span>
+              <span className="cr-batch-tag">Batch {batch}</span>
               <span className="cr-batch-series">Series {batch}00</span>
             </div>
 
