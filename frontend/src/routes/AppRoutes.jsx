@@ -17,6 +17,8 @@ import StudentProfile   from '../pages/student/StudentProfile'
 import StudentDashboard from '../pages/student/StudentDashboard'
 import StudentResults   from '../pages/student/StudentResults'
 import CR               from '../pages/student/CR'
+import Advisor          from '../pages/student/Advisor'
+import AdvisorBatch     from '../pages/student/AdvisorBatch'
 import RequireAuth      from './RequireAuth'
 
 import Dean             from '../pages/faculty/Dean'
@@ -95,6 +97,9 @@ const AppRoutes = () => {
 
         <Route path="/student/cr" element={<CR />} />
 
+        <Route path="/student/advisor" element={<Advisor />} />
+        <Route path="/student/advisor/:batch" element={<AdvisorBatch />} />
+
         {/* <Route path="/contact" element={<Contact />} /> */}
         {/* <Route path="/about/cse"               element={<AboutCSE />} /> */}
         {/* <Route path="/about/message-from-head" element={<MessageFromHead />} /> */}
@@ -125,7 +130,7 @@ const AppRoutes = () => {
         {/* <Route path="/research/publications"   element={<Publications />} /> */}
         {/* <Route path="/research/projects"       element={<Projects />} /> */}
 
-        {/* <Route path="/student/advisor"         element={<Advisor />} /> */}
+        {/* <Route path="/student/guidelines"      element={<Guidelines />} /> */}
         {/* <Route path="/student/guidelines"      element={<Guidelines />} /> */}
         {/* <Route path="/student/results"         element={<Results />} /> */}
 

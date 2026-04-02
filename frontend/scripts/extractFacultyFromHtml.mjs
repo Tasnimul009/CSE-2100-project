@@ -73,6 +73,7 @@ function parseFacultyCard(block) {
     departmentShort: departmentShort || '',
     onLeave,
     socials,
+    isAdvisor: true,
   }
 }
 

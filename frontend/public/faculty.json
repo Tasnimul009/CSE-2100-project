@@ -1,9 +1,9 @@
 {
-  "version": 5,
+  "version": 6,
   "source": {
     "type": "html",
     "file": "../../../ruet.html",
-    "generatedAt": "2026-04-02T19:16:45.605Z"
+    "generatedAt": "2026-04-02T19:27:36.150Z"
   },
   "dean": {
     "id": "dean-cse",
@@ -42,7 +42,8 @@
         "gs": "",
         "li": "https://www.linkedin.com/in/dr-engr-md-nazrul-islam-mondal-782605a9",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Dr. Md. Rabiul Islam",
@@ -56,7 +57,8 @@
         "gs": "",
         "li": "",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Prof. Dr. Md. Al Mamun",
@@ -70,7 +72,8 @@
         "gs": "https://scholar.google.com/citations?user=36fC4QcAAAAJ&hl=en",
         "li": "https://www.linkedin.com/in/al-mamun-81b49824/",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "A H M Sarowar Sattar",
@@ -84,7 +87,8 @@
         "gs": "",
         "li": "",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Dr. Mir Md. Jahangir Kabir",
@@ -98,7 +102,8 @@
         "gs": "",
         "li": "https://www.linkedin.com/in/mir-md-jahangir-kabir-phd-14621074/?originalSubdomain=au",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Dr. Md. Al Mehedi Hasan",
@@ -112,7 +117,8 @@
         "gs": "https://scholar.google.com/citations?user=kMspjFIAAAAJ&hl=en",
         "li": "",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Professor Dr. Md. Ali Hossain",
@@ -126,7 +132,8 @@
         "gs": "https://scholar.google.co.jp/citations?user=C7ntpAIAAAAJ&hl=ja",
         "li": "https://www.linkedin.com/in/md-ali-hossain-418887b0/",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Dr. Md. Arafat Hossain",
@@ -140,7 +147,8 @@
         "gs": "",
         "li": "",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Shyla Afroge",
@@ -154,7 +162,8 @@
         "gs": "",
         "li": "",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Associate Professor 3",
@@ -168,7 +177,8 @@
         "gs": "",
         "li": "",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Syed Tauhid Zuhori",
@@ -182,7 +192,8 @@
         "gs": "",
         "li": "",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Firoz Mahmud",
@@ -196,7 +207,8 @@
         "gs": "",
         "li": "",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Biprodip Pal",
@@ -210,7 +222,8 @@
         "gs": "https://scholar.google.com/citations?user=Bbujcf8AAAAJ&hl=en",
         "li": "https://www.linkedin.com/in/biprodip/",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Emrana Kabir Hashi",
@@ -224,7 +237,8 @@
         "gs": "",
         "li": "",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Mumu Aktar",
@@ -238,7 +252,8 @@
         "gs": "",
         "li": "",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Sadia Zaman Mishu",
@@ -252,7 +267,8 @@
         "gs": "",
         "li": "https://www.linkedin.com/in/sadia-zaman-mishu-860a45119/",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Abu Sayeed",
@@ -266,7 +282,8 @@
         "gs": "",
         "li": "",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Barshon Sen",
@@ -280,7 +297,8 @@
         "gs": "",
         "li": "",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Nahin Ul Sadad",
@@ -294,7 +312,8 @@
         "gs": "",
         "li": "https://www.linkedin.com/in/nahin-ul-sadad-694b59119/",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Md. Zahirul Islam",
@@ -308,7 +327,8 @@
         "gs": "https://scholar.google.com/citations?user=_2kj7XQAAAAJ&hl=en",
         "li": "https://www.linkedin.com/in/zahirul-islam-310393153/",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Md. Farukuzzaman Faruk",
@@ -322,7 +342,8 @@
         "gs": "",
         "li": "https://www.linkedin.com/in/md-farukuzzaman-faruk-269584132/",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Mohiuddin Ahmed",
@@ -336,7 +357,8 @@
         "gs": "",
         "li": "https://linkedin.com/in/mohiuddin-ahmed-mn",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Md. Azmain Yakin Srizon",
@@ -350,7 +372,8 @@
         "gs": "https://scholar.google.com/citations?user=6zXjgsEAAAAJ&hl=en",
         "li": "https://www.linkedin.com/in/azmain-yakin-srizon/",
         "tw": "https://x.com/AYSrizon"
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "A. F. M. Minhazur Rahman",
@@ -364,7 +387,8 @@
         "gs": "",
         "li": "https://www.linkedin.com/in/mrsaurov/",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Farjana Parvin",
@@ -378,7 +402,8 @@
         "gs": "https://scholar.google.com/citations?hl=en&user=VHspwJYAAAAJ",
         "li": "https://www.linkedin.com/in/farjana-parvin/",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Utsha Das",
@@ -392,7 +417,8 @@
         "gs": "",
         "li": "",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "S.M. Shovan",
@@ -406,7 +432,8 @@
         "gs": "",
         "li": "",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Md Rakibul Haque",
@@ -420,7 +447,8 @@
         "gs": "",
         "li": "https://www.linkedin.com/in/md-rakibul-haque/",
         "tw": "https://twitter.com/rakibulhaq56"
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Tasmia Jannat",
@@ -434,7 +462,8 @@
         "gs": "https://scholar.google.com/citations?user=VCX7_noAAAAJ&hl=en",
         "li": "https://www.linkedin.com/in/tasmia-jannat/",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Md. Sozib Hossain",
@@ -448,7 +477,8 @@
         "gs": "https://scholar.google.com/citations?hl=en&user=6tZx_AsAAAAJ",
         "li": "https://www.linkedin.com/in/mdsozibhossain/",
         "tw": "https://x.com/msozibh"
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Md. Nasif Osman Khansur",
@@ -462,7 +492,8 @@
         "gs": "",
         "li": "https://www.linkedin.com/in/nasif-osman-shuvra-391b5821b/",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     },
     {
       "name": "Md. Mazharul Islam",
@@ -476,7 +507,8 @@
         "gs": "",
         "li": "",
         "tw": ""
-      }
+      },
+      "isAdvisor": true
     }
   ],
   "staff": [
